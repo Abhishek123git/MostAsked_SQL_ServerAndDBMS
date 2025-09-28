@@ -16,6 +16,12 @@ _This curated set of 20+ database interview questions reflects the most commonly
 8. **How does a Common Table Expression (CTE) work and how is it different from a subquery? ⭐**  
 9. **What are the advantages and disadvantages of using stored procedures? ⭐**
 10. **What is the difference between stored procedure and functions? ⭐👍**
+11. **What is order of execution in sql?**
+
+## Important query based interview questions 
+
+1. **Find Nth highest salary from employee table (Include all possible varient)?**
+2. **Write the query to delete duplicate data or row from table (Include all possible varient)? ⭐**
 
 
 ## 1. Difference between DBMS and RDBMS
@@ -29,6 +35,7 @@ _This curated set of 20+ database interview questions reflects the most commonly
 | Data Structure | Hierarchical or navigational  | Tabular (tables with rows/columns) |
 | Relationships  | No relationships              | Supports relationships via foreign keys |
 | Normalization  | Not enforced                  | Enforced to reduce redundancy |
+| Useage         | Deal with small quantity data | Deal with large amount of data |
 | Examples       | File System, XML              | SQL Server, MySQL, PostgreSQL |
 
 ---
@@ -133,3 +140,7 @@ _This curated set of 20+ database interview questions reflects the most commonly
 | Transactions    | Can manage transactions       | Cannot manage transactions       |
 
 ---
+
+## 11. What is order of execution in sql?
+
+**Answer:** FROM > WHERE > GROUP BY > HAVING > SELECT > ORDER BY > LIMIT
